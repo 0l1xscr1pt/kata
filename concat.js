@@ -10,8 +10,7 @@ function smash (words) {
             sentence += " ";
         }
     }
-    console.log(sentence);
-     //return "";
+    return sentence;
 };
 
 smash(['hello', 'world', 'this', 'is', 'great']);
