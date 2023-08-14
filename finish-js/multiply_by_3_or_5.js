@@ -1,9 +1,9 @@
 function multiple(number){
-    i = 0;
-    sum = 0;
-    list = [];
-    multipleOf3 = 0;
-    multipleOf5 = 0;
+    let i = 0;
+    let sum = 0;
+    let list = [];
+    let multipleOf3 = 0;
+    let multipleOf5 = 0;
 
     while ((multipleOf5 + 5) < number) {
         multipleOf5 += 5;
