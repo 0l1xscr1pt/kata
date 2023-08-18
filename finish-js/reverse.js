@@ -7,7 +7,7 @@ function strLength(list) {
 }
 
 
-function solution(string){
+function reverse(string){
     i = (strLength(string) - 1);
     reverseStr = "";
     j = 0;
