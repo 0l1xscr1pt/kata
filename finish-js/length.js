@@ -1,7 +1,7 @@
 function length(list) {
     let i = 0;
     
-    while (list[i] != undefined) {
+    while (list[i] !== undefined) {
         i++;
     }
     console.log(i);
